@@ -21,5 +21,4 @@ Since pictures speak louder than words
 
 
 ### Watch demo
-To see app possibilities in detail:
 [![Watch the video](https://i9.ytimg.com/vi/yvuY6ndO6nw/mq1.jpg?sqp=COiotfoF&rs=AOn4CLA9NXZ0BSDUJMSgpyMWyiNyBOYMUg)](https://www.youtube.com/watch?v=yvuY6ndO6nw)

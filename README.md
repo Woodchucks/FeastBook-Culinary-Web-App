@@ -2,6 +2,7 @@
 This app helps to organize and store your favourite recipes and filter them in various ways e.g. via product, category, given rate or hashtag. Recipes are added via photos, typing or just copy - pasting it from somewhere else. Enjoy :)
 
 ## Main features explained with pictures below 
+Since pictures speak louder than words
 
 ![1](https://user-images.githubusercontent.com/37177696/91758936-13bbfa00-ebd1-11ea-9a48-d1a9e156c489.jpg)
 ![3](https://user-images.githubusercontent.com/37177696/91759075-5978c280-ebd1-11ea-9964-3618583f5099.jpg)
@@ -17,3 +18,8 @@ This app helps to organize and store your favourite recipes and filter them in v
 ![18_2](https://user-images.githubusercontent.com/37177696/91759671-56320680-ebd2-11ea-8d1e-4fae7e2c3566.jpg)
 ![19_1](https://user-images.githubusercontent.com/37177696/91759682-59c58d80-ebd2-11ea-8c16-683ea616a695.JPG)
 ![19_2](https://user-images.githubusercontent.com/37177696/91759687-5c27e780-ebd2-11ea-9e57-7e65f5d24e8c.JPG)
+
+
+### Watch demo
+To see app possibilities in detail:
+[![Watch the video](https://i9.ytimg.com/vi/yvuY6ndO6nw/mq1.jpg?sqp=COiotfoF&rs=AOn4CLA9NXZ0BSDUJMSgpyMWyiNyBOYMUg)](https://www.youtube.com/watch?v=yvuY6ndO6nw)

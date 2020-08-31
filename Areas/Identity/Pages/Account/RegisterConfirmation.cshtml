@@ -1,0 +1,25 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Potwierdzenie rejestracji";
+}
+    <div class="d-flex justify-content-start" style="height:10vh;">
+        <div class="col-md-4 text-center opacityBackground">
+            <h1>@ViewData["Title"]</h1>
+            @{
+                if (@Model.DisplayConfirmAccountLink)
+                {
+                    <p>
+                        <!--Aplikacja obecnie nie obsługuje mailowego potwierdzenia założenia konta, zobacz <a href="https://aka.ms/aspaccountconf">tutaj</a> aby dowiedzieć się jak przebiega konfiguracja.-->
+                        <a id="confirm-link" href="@Model.EmailConfirmationUrl" class="ladna_czcionka">Wejdź, aby potwierdzić założenie konta.</a>
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Sprawdź maila by potwierdzić założenie profilu.
+                    </p>
+                }
+            }
+            </div>
+        </div>

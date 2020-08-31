@@ -1,0 +1,21 @@
+﻿@model IEnumerable<FeastBook_final.Models.Kategoria>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*<link href="~/css/HomeIndex.css" rel="stylesheet" asp-append-version="true" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">*@
+
+<div class="container-fluid mt-5 pt-5 pb-5 opacityBackground">
+    <h1 class="img-fluid row ladna_czcionka justify-content-center">Wybierz Kategorię</h1><br />
+    <div class="row justify-content-center">
+        <button type="button" class="p-2 btn-warning mb-1 col-3 ladna_czcionka" style="background: radial-gradient(circle, rgba(255,237,204,0.938813025210084) 18%, rgba(255,184,51,1) 100%); color:black;" onclick="location.href='@Url.Action("Create", "Kategorie")'">&#65122;DODAJ</button>
+        <icon class="mr-3"></icon>
+        @foreach (var item in Model.Where(item => item.Nazwa != "Kategoria"))
+        {
+            <button type="button" class="btn-outline-warning col-3 ladna_czcionka p-2 mb-1" style="background: radial-gradient(circle, rgba(255,237,204,0.938813025210084) 18%, rgba(255,184,51,1) 100%);" onclick="location.href='@Url.Action("Index", "Przepisy", new { id = item.Nazwa })'">@item.Nazwa</button>
+            <icon class="mr-1 ladna_czcionka" onclick="location.href='@Url.Action("Delete", "Kategorie", new { id = item.Id })'"><span class="minus">&#8722;</span></icon>
+        }
+    </div>
+</div>

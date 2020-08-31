@@ -1,0 +1,18 @@
+﻿<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<link href="~/css/overview.css" rel="stylesheet" />
+
+@{
+    ViewData["Title"] = "Main";
+    Layout = null;
+}
+
+<section class="overview d-flex">
+    <div class="background-image" style="background-image: url(/images/food.jpg)"></div>
+    <div class="overview-content">
+        <h1 class="ladna_czcionka">FeastBook</h1>
+        <h3 class="ladna_czcionka">Twoje Ulubione Przepisy w jednym miejscu</h3>
+        <a class="btn btn-outline-warning" asp-area="Identity" asp-page="/Account/Login">Wejdź</a>
+    </div>
+</section>
+

@@ -3,6 +3,7 @@ This app helps to organize and store your favourite recipes and filter them in v
 
 ## Main features explained with pictures below. 
 
+![1](https://user-images.githubusercontent.com/37177696/91758936-13bbfa00-ebd1-11ea-9a48-d1a9e156c489.jpg)
 ![3](https://user-images.githubusercontent.com/37177696/91759075-5978c280-ebd1-11ea-9964-3618583f5099.jpg)
 ![4](https://user-images.githubusercontent.com/37177696/91759360-d310b080-ebd1-11ea-994b-2f8296806ed5.jpg)
 ![5_2](https://user-images.githubusercontent.com/37177696/91759387-defc7280-ebd1-11ea-8836-4c6aad140ca6.jpg)

@@ -1,0 +1,81 @@
+﻿/*h5 {
+    font-family: 'Amatic SC', cursive;
+    background-color: #ffff80;
+    font-size: 40px;
+}
+
+.navbar {
+    height: 15vh !important;
+}
+
+.kategorie {
+    padding-top: 15vh;
+    height: -webkit-fill-available;
+    z-index: 1;
+    opacity: 1;
+    width: 100%;
+}
+.main_content {
+    margin-top: 15vh;
+}
+.background_image {
+    background-size: !important cover;
+    position: absolute;
+    background-image: url('../images/food.jpg');
+    top: 0%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: #80a3db;
+    opacity: 0.8;
+    margin-top: 15vh;
+    height: -webkit-fill-available;
+}
+button {
+    margin: 1px 1px 1px 1px;
+    outline: !important none;
+}
+@media(max-width: 970px) {
+    body {
+        font-size: 15px;
+    }
+
+    .ladna_czcionka {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 970px) {
+    button {
+        transform: rotate(-25deg);
+        padding: 10px 0 10px 0;
+        outline: !important none;
+    }
+    body {
+        font-size: 20px;
+    }
+    .ladna_czcionka {
+        font-size: 30px;
+    }
+}
+
+#main {
+    position: relative;
+}
+
+    #main:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../images/food.jpg);
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        z-index: -1;
+    }
+*/
+body {
+    background-size: cover !important;
+}

@@ -1,0 +1,163 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.navbar {
+    height: 15vh !important;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*body {
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center center;
+    background-repeat: no-repeat repeat;
+    background-position-y: top;
+}*/
+.main_content {
+    margin-top: 15vh;
+}
+
+.background-image {
+    position: absolute;
+    background-image: url('../images/food.jpg');
+    top: 0%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: #80a3db;
+    opacity: 0.8;
+    height: -webkit-fill-available;
+    margin-top: 15vh;
+}
+
+.autoBackgrd {
+    background-size: auto;
+}
+
+/*.main_content {
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
+    //background-color: #80a3db;
+    opacity: 1;
+    padding-bottom: 10vh;
+}*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: normal;
+    background: radial-gradient(circle, rgba(255,254,235,1) 0%, rgba(235,218,180,0.6278886554621849) 100%);
+}
+
+.text-muted {
+    color: !important white;
+}
+
+.ladna_czcionka {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+html {
+    font-size: 23px;
+}
+
+    @media(max-width: 800px) {
+        .ladna_czcionka {
+            font-size: 30px;
+        }
+        html {
+            font-size: 16px;
+        }
+    }
+
+    @media(max-width: 600px) {
+        .ladna_czcionka {
+            font-size: 25px;
+        }
+        html {
+            font-size: 12px;
+        }
+    }
+
+.nazwa_kategorii {
+    box-sizing: border-box
+}
+
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
+
+.opacityBackground {
+    background: radial-gradient(circle, rgba(255,254,235,1) 0%, rgba(235,218,180,0.6278886554621849) 100%);
+}
+
+.gradientYellow {
+    background: radial-gradient(circle, rgba(255,237,204,0.7) 18%, rgba(255,184,51,1) 100%);
+}
+
+.minus {
+    background-color:red;
+    font-size:35px;
+    color: white;
+}

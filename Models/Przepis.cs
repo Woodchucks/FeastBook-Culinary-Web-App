@@ -38,8 +38,6 @@ namespace FeastBook_final.Models
             set { _ocena = value; }
         }
         public byte[] Image { get; set; }
-        public byte[] Image2 { get; set; }
-        public byte[] Image3 { get; set; }
 
         [Required(ErrorMessage = "Instrukcja wykonania przepisu jest wymagana.")]
         [Display(Name = "Instrukcja")]
